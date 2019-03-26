@@ -1,0 +1,66 @@
+<!doctype html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Liberary</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <h1>Welcome to a Private Book Library</h1>
+    <button id="btn">Click here to fill the Form</button>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form id="bookForm">
+                <h3>Fill up the details of your book</h3>
+                <label for="title">Book Title</label>
+                <input type="text" id="title" name="title" placeholder="Book Title ..">
+                <label for="author">Author Name</label>
+                <input type="text" id="author" name="author" placeholder="Author name..">
+
+                <label for="number">Number of Pages</label>
+                <input type="text" id="number" name="number" placeholder="Number of Pages ..">
+
+                <label for="reading-status">Reading Status</label>
+                <select id="reading-status" name="reading-status">
+                    <option value="true" >Read</option>
+                    <option value="false">Not-Read</option>
+                </select>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+   <div class="card-container" id="book-list">
+       
+    <!--  <div class="row">
+        <div class="column">
+                <button class="close">&times;</button>
+            <div class="card">
+                <h3>Author Name:</h3>
+                <p>Title:</p>
+                <p>No of Pages: </p>
+                
+                    <label class="switch"><input type="checkbox" id="togBtn">
+                        <div class="slider round"></div>
+                    </label>
+
+            </div>
+        </div>-->
+
+    </div> 
+        
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+<script src="script.js"></script>
+
+
+
+</html>
